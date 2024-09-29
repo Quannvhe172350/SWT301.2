@@ -1,0 +1,268 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* Style the main container */
+.main {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Style the form container */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the table cells */
+table td {
+  padding: 5px;
+}
+
+/* Style the buttons */
+.btn {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-save {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.btn-cancel {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Style the image */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Style the form groups */
+.form-group {
+  margin-bottom: 10px;
+}
+
+/* Style the row elements */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the labels */
+table td:first-child {
+  font-weight: bold;
+  width: 120px;
+}
+
+/* Add spacing between form groups */
+.col-md-3 {
+  width: 25%;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+
+/* Add spacing between columns */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Main container */
+.app-content {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* Form container */
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+}
+
+table td {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Header cells */
+table td:first-child {
+  font-weight: bold;
+  width: 150px;
+}
+
+/* Image style */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-save {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.btn-cancel {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 15px;
+}
+/* Main container */
+.app-content {
+  background-color: #f7f7f7;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Form container */
+form {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Header cells */
+table td:first-child {
+  font-weight: bold;
+  width: 150px;
+}
+
+/* Image style */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-save {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.btn-cancel {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Image upload container */
+#thumbbox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* File input and remove button styles */
+.Choicefile {
+  display: inline-block;
+  background: #007BFF;
+  border: none;
+  color: #fff;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.Choicefile:hover {
+  background: #0056b3;
+}
+
+#uploadfile,
+.removeimg {
+  display: none;
+}
+
+.removeimg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Hover effect on remove button */
+.removeimg:hover {
+  color: #fff;
+  background: #f44336;
+}
+
+
+/* Responsive layout for small screens */
+@media (max-width: 768px) {
+  .col-md-3 {
+    width: 100%;
+  }
+}
+
